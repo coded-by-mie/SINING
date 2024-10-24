@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.cont{
+	margin-top: 180px;
+	width: 50%;
+	max-width: 100%;
+	background-color: #212529;
+    font-size: 20px;
+    border-radius: 10px;
+	box-shadow: 5px 10px 5px rgba(0, 0, 0, .3);
+	color: white;
+
+   	overflow-x: hidden;
+}
+
+input{
+      margin-bottom: 13px;
+      margin-right: 15px;
+}
+
+input[type=submit]{
+    width: 20%;
+    color: white;
+    left: 50%;
+    background-color: #4d4d4d;
+    border-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #ffc800;
+    color: black;
+    font-weight: bold;
+}
+
+input[type=radio]{
+   	width: 5%;
+}
+
+input[type=text]{
+   	width: 100%;
+   	font-weight: bold;
+   	border-radius: 10px;
+}
+
+/* MEDIA SCREENS */
+@media screen and (max-width: 376px) {
+.cont{
+   	width: 100%;
+   	font-size: 17px;
+}
+
+input[type=text]{
+   	width: 80%;
+}
+
+input[type=submit]{
+	width: 50%;
+}
+}
+
+@media screen and (max-width: 325px) {
+.cont{
+   	width: 100%;
+   	font-size: 16px;
+}
+
+input[type=text]{
+   	width: 290px;
+}
+
+input[type=submit]{
+	width: 30%;
+}
+}
+
+@media screen and (max-width: 426px) {
+.cont{
+   	width: 100%;
+   	font-size: 16px;
+}
+
+input[type=text]{
+   	width: 390px;
+}
+
+input[type=submit]{
+	width: 50%;
+}
+}

@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.wrapper{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #2d2d2d;
+    box-sizing: border-box;
+}
+.inner-tab, .inner-tab td{
+    border-collapse: collapse;
+}
+.inner-tab td{
+    height: 80px;
+    padding: 10px 30px;
+}
+.outer-tab{
+    margin: 0;  
+}
+.inner-tab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 10px;
+    background: #212529;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    /* border: 1px solid red; */
+}
+.button{
+    border-top: 1px solid #ededed;
+}
+button[type="submit"],.cancel{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin: 10px;
+    font-size: 15px;
+    background: #2f3640;
+    color: #fff;
+}
+button[type="submit"]:hover,.cancel:hover{
+    cursor: pointer;
+    background: #fcc800;
+    transition: .4s;
+}
+input[type="file"]{
+    width: 190px;
+    color: #fff;
+}
+input[type="text"],input[type="number"]{
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid #191919;
+}
+input[type="text"]:hover,input[type="number"]:hover{
+    border: 2px solid #fcc800;
+}
